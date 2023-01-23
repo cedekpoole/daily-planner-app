@@ -36,4 +36,22 @@ The app should:
 
 - Persist events between refreshes of a page.
 
+## Installation 
 
+N/A
+
+## Usage 
+
+![Work Day Planner](assets/images/planner-screenshot.png "Work Day Planner")
+
+If you press on [this link](https://cedekpoole.github.io/daily-planner-app/), you will be redirected to the Work Day Planner application. When the screen loads, the current date can be found in the header of the page. To add events to the daily planner, the user must type in the text area and press the corresponding save button to set the item in local storage. Once set, the items will be saved and displayed even after refreshing the page. 
+
+To remove all existing user inputs, there is a 'Clear data' button within the header that can be clicked. Pressing this button will clear all data stored within local storage. It will also reset the textarea values to an empty string. 
+
+## Roadmap 
+
+In the future, I would like to add more functionality to the page (e.g. be able to flip through future dates and add important events coming up). Any tips on how to achieve this are very welcome!
+
+## Licence 
+
+Please refer to the LICENSE in the repo.
