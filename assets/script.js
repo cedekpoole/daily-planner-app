@@ -10,15 +10,16 @@ $(".row").each(function () {
   // change the colour of textarea when time changes
   var timeSection = $(this).attr("id");
   var hour = moment().format("HH");
-
+  var targetEl = $(this).children().eq(1);
+  
   if (timeSection === hour) {
-    $(this).addClass("present");
+    targetEl.addClass("present");
   } else if (timeSection < hour) {
-    $(this).addClass("future");
-    $(this).removeClass("present");
+    targetEl.addClass("future");
+    targetEl.removeClass("present");
   } else {
-    $(this).addClass("past");
-    $(this).removeClass("future");
+    targetEl.addClass("past");
+    targetEl.removeClass("future");
   }
   // show time in first column of each row
   var amPm = $(this).children(".hour").children().attr("id");
