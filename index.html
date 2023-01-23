@@ -10,9 +10,7 @@
     />
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap"
@@ -27,6 +25,7 @@
       <h1 class="display-3">Work Day Scheduler</h1>
       <p class="lead">A simple calendar app for scheduling your work day</p>
       <p id="currentDay" class="lead"></p>
+      <button id="clear-button" class="btn btn-warning">Clear Data</button>
     </header>
     <div class="container">
       <!-- Timeblocks go here -->
@@ -37,7 +36,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="10" class="row">
         <div class="col-1 hour"><span id="10am"></span></div>
@@ -46,7 +45,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="11" class="row">
         <div class="col-1 hour"><span id="11am"></span></div>
@@ -55,7 +54,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="12" class="row">
         <div class="col-1 hour"><span id="12pm"></span></div>
@@ -64,7 +63,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="13" class="row">
         <div class="col-1 hour"><span id="1pm"></span></div>
@@ -73,7 +72,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="14" class="row">
         <div class="col-1 hour"><span id="2pm"></span></div>
@@ -82,7 +81,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="15" class="row">
         <div class="col-1 hour"><span id="3pm"></span></div>
@@ -91,7 +90,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
       <div id="16" class="row">
         <div class="col-1 hour"><span id="4pm"></span></div>
@@ -100,7 +99,7 @@
           class="col-10 time-block description"
           placeholder="blah blah blah"
         ></textarea>
-        <button class="save-button col-1 bg-light"></button>
+        <button class="save-button col-1 bg-light"><i class="fa-solid fa-floppy-disk"></i></button>
       </div>
     </div>
 
