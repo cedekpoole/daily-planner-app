@@ -10,8 +10,30 @@ Link to the Daily Work Schedular: https://cedekpoole.github.io/daily-planner-app
 - JavaScript
 - Bootstrap (v.4.3.1)
 - Moment.js
-- JQuery (v.3.2.1)
+- jQuery (v.3.2.1)
 
 ### New Skills Practiced: 
-- Bootstrap => This project has provided me with another opportunity to practice with bootstrap, the most popular CSS framework for developing responsive and mobile-first websites (to view the docs, click on this link: https://getbootstrap.com/docs/4.3/getting-started/introduction/)
-- Third-party APIs => These allow us to use APIs provided by third parties; they allow access to their functionality via JavaScript, giving us the ability to use them on our own sites. For this project, JQuery - a lightweight JavaScript library - was used in order to make DOM manipulation and transversal easier (read more here: https://api.jquery.com/). In addition to this 
+
+- Bootstrap => This project has provided me with another opportunity to practice with bootstrap, the most popular CSS framework for developing responsive and mobile-first websites (to view the docs, click this link: https://getbootstrap.com/docs/4.3/getting-started/introduction/). Using it endowed me with the ability to develop the aesthetic side of the project with much more ease; it became a very convenient tool in making the page responsive to a variety of viewports. 
+
+- Third-party APIs => APIs provided by third parties allow access to their functionality via JavaScript, giving us the ability to use said functionality on our own sites. As this project relied heavily upon movement around the DOM, jQuery - a lightweight JavaScript library - was used in order to make DOM (Document Object Model) manipulation and transversal easier (read more here: https://api.jquery.com/). As this is an interactive daily planner, another third-party API was used to help manage time more efficiently: Moment.js. It is important to note, however, that while moment.js is no longer supported by its developers, it is still a widely used and functional API (hence usage of it in this project). The main benefits of using this JS library is that it allows us to manipulate and display the date/time simply and directly (link to docs here: https://momentjs.com/docs/#/displaying/). 
+
+The Work Day Schedular amalgamates all the skills discussed above, and the essence of the challenge was to create a functional site that can store and display the user's plan for the day. With this tool, the user can add important events to the planner, giving them the opportunity to manage their time effectively. 
+
+### Acceptance Criteria: 
+
+The app should:
+
+- Display the current day at the top of the calendar when a user opens the planner.
+
+- Present timeblocks for standard business hours when the user scrolls down.
+
+- Color-code each timeblock based on past, present, and future when the timeblock is viewed.
+
+- Allow a user to enter an event when they click a timeblock.
+
+- Save the event in local storage when the save button is clicked in that timeblock.
+
+- Persist events between refreshes of a page.
+
+
