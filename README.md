@@ -46,7 +46,9 @@ N/A
 
 If you press on [this link](https://cedekpoole.github.io/daily-planner-app/), you will be redirected to the Work Day Planner application. When the screen loads, the current date can be found in the header of the page. To add events to the daily planner, the user must type in the text area and press the corresponding save button to set the item in local storage. Once set, the items will be saved and displayed even after refreshing the page. 
 
-To remove all existing user inputs, there is a 'Clear data' button within the header that can be clicked. Pressing this button will clear all data stored within local storage. It will also reset the textarea values to an empty string. 
+![Work Day Planner Second Screenshot](assets/images/screenshot2.png "Work Day Planner")
+
+Each timeblock is colour coded, dependent on whether the block is in the past, present or future. Past hours are displayed as green, the present is red and future hours are shown in grey. This can be seen more clearly in the screenshot above. To remove all existing user inputs, there is a 'Clear data' button within the header that can be clicked. Pressing this button will clear all data stored within local storage. It will also reset the textarea values to an empty string. 
 
 ## Roadmap 
 
