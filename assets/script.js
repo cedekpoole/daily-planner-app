@@ -28,7 +28,7 @@ $(".row").each(function () {
 
 $(".save-button").on("click", (e) => {
   // store user's input associated with particular save button into a variable
-  var storeItem = $(e.currentTarget).parent().children().eq(1).val();
+  var storeItem = $(e.currentTarget).prev().val();
   // store clicked box (the time) into a variable
   var time = $(e.currentTarget).parent().attr("id");
   // set item into local storage (as a key: value pair)
